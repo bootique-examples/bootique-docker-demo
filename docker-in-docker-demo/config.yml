@@ -1,0 +1,5 @@
+docker:
+  clients:
+    dind:
+      type: noenv
+      dockerHost: "tcp://localhost:9375"
